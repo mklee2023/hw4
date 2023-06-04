@@ -6,6 +6,8 @@
   <% end %>
 </ul>
 
+<% if @current_user %>
 <p>
-  <a href="/places/new">New place</a>
+  <a href="/places/new" class="btn btn-success" >New place</a>
 </p>
+<% end %>
