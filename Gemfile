@@ -6,6 +6,7 @@ ruby "3.2.1"
 gem "rails", "~> 7.0.0"
 gem "puma", "~> 5.0"
 gem "bcrypt", "~> 3.1.7"
+gem "sqlite3", "~> 1.4"
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 # gem "image_processing", ">= 1.2"
 # gem "aws-sdk-s3", require: false
